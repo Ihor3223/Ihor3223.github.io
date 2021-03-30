@@ -1,0 +1,82 @@
+fieldset {
+  width: 500px;
+}
+.Anketa {
+  color: black;
+}
+body {
+  text-align: left;
+  max-width: 35%;
+  margin: auto;
+  background-color: #d6d6d6;
+}
+
+.info_title {
+  background-color: rgb(255 255 255);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 5px rgb(115 115 115);
+}
+
+.label_info {
+  color: black;
+}
+.phone {
+  color: black;
+}
+.email {
+  color: black;
+}
+
+.date {
+  color: black;
+}
+.fieldsete {
+  background-color: rgb(255 255 255);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 5px rgb(115 115 115);
+}
+.legend {
+  color: rgb(25 24 24);
+  font-weight: bold;
+  font-size: 20px;
+  background: #fffefe;
+}
+.personal {
+  color: black;
+}
+.arial {
+  color: black;
+}
+.menu {
+  color: black;
+}
+.color {
+  color: rgb(25 24 24);
+  font-weight: bold;
+  font-size: 20px;
+  background: #fffefe;
+  color: black;
+}
+.h4 {
+  color: black;
+}
+.katya {
+  background-color: rgb(255 255 255);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 5px rgb(115 115 115);
+}
+.mon {
+  color: black;
+}
+.wid {
+  display: block;
+  width: 100%;
+}
+.int {
+  display: block;
+  width: 100%;
+}
+.ste {
+  display: block;
+  width: 100%;
+}

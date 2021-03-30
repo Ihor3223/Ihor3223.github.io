@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Анкета відвідувача ресторану</title>
+    <link rel="stylesheet" href="anketa.css" />
+  </head>
+  <div>
+    <body>
+      <h1 class="Anketa">Анкета відвідувача ресторану</h1>
+
+      <br />
+
+      <fieldset class="info_title">
+        <legend class="legend">Котактна інформація</legend>
+        <label class="label_info">Ваше ім'я </label>
+        <input
+          id="userName"
+          type="text"
+          name="user-name"
+          placeholder="Ваше ім'я"
+          title="Ваше ім'я"
+        />
+        <br />
+        <br />
+        <label class="phone" for="userPhone">Телефон</label>
+        <input
+          id="userPhone"
+          type="text"
+          name="user-name"
+          placeholder="Ваш телефон"
+          title="Ваш телефон"
+        />
+        <br />
+        <br />
+        <label class="email" for="userEmail">Email</label>
+        <input
+          id="userEmail"
+          type="email"
+          name="user-email"
+          placeholder="Email"
+          title="Email"
+        />
+        <br />
+        <br />
+        <label class="date" for="userDate">Дата відвідування</label>
+        <input
+          id="userDate"
+          type="date"
+          name="user-date"
+          placeholder="Дата відвідування"
+          title="Дата відвідування"
+        />
+      </fieldset>
+      <br />
+      <fieldset class="fieldsete">
+        <legend class="legend">Персональна Інформація</legend>
+        <label class="personal" for="age"> Вік</label>
+        <input type="number" min="1" max="100" step="1" />
+        <br />
+        <br />
+        <label class="arial"> Улюблена кухня</label>
+        <select name="country" id="country">
+          <option value="UK">Украінська</option>
+          <option value="usa">Азіатська</option>
+          <option value="usa">Італійська</option>
+        </select>
+        <br />
+        <br />
+        <label class="menu"> Які страви ви хотіли би бачити в меню </label>
+        <textarea maxlength="100" ; wrap="soft" cols="50"></textarea>
+      </fieldset>
+      <br />
+      <fieldset class="katya">
+        <legend class="color">Оцінка нашого закладу</legend>
+        <h4 class="h4">Чому ви обрали наш заклад?</h4>
+        <label class="wid"
+          ><input type="radio" />Недалеко від дому/роботи</label
+        >
+        <label class="int"><input type="radio" /> Побачив/ла рекламу</label>
+        <label class="ste"><input type="radio" /> Порадили</label>
+        <label
+          ><input type="radio" />Оптимальне співвідношення ціни та якості
+        </label>
+        <h4 class="mon">Ви будете рекламувати заклад своїм знайомим?</h4>
+        <label><input type="radio" />Так</label>
+        <label><input type="radio" /> Ні</label>
+        <br />
+        <input type="submit" value="Надіслати" />
+      </fieldset>
+      <div style="margin-left: 90%">
+        <ul>
+          <li>
+            <a href="semat.html">резюме </a>
+          </li>
+          <li><a href="front.html">Що таке фронтенд? </a></li>
+
+          <li><a href="semat.html">Семантика</a></li>
+        </ul>
+      </div>
+    </body>
+  </div>
+</html>

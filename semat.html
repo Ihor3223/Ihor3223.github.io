@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantika</title>
+    <style>
+      header {
+        text-align: justify;
+        letter-spacing: 1px;
+        height: 10em;
+        padding: 1em 10%;
+        background: #2c3e50;
+        color: #fff;
+      }
+      header h1,
+      header nav {
+        display: inline-block;
+      }
+      header h1 {
+        height: 100%;
+      }
+
+      header a {
+        color: azure;
+      }
+      div {
+        background-color: blanchedalmond;
+        height: 164em;
+      }
+      h1 {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body style="text-align: center">
+    <header>
+      <h1>Семантика</h1>
+      <nav>
+        <a href="resume.html">Resume</a> <a href="front.html">frontend</a>
+        <a href="anketa.html">Анкета кліента</a>
+      </nav>
+    </header>
+
+    <div>
+      <h1>HTML5 Семантичні елементи</h1>
+      <p>
+        Семантичний елемент чітко описує його значення як для браузера,<br />
+        так і для розробника.<br />
+        Приклади не семантичних елементів: &lt; div &gt;і &lt; span &gt;- нічого
+        не говорить про його вміст.<br />
+        Приклади семантичних елементів: &lt; form &gt; &lt; table &gt;і &lt;
+        arcticle &gt;- чітко визначає його зміст.
+      </p>
+      <h2>Підьтримка браузерів</h2>
+      <img src="images/compatible_chrome.gif" />
+      <img src="images/compatible_edge.gif" />
+      <img src="images/compatible_firefox.gif" />
+      <img src="images/compatible_opera.gif" />
+      <img src="images/compatible_safari.gif" />
+      <p>
+        Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.<br />
+        Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі
+        елементи".
+      </p>
+      <a href="https://html5css.ru/html/html5_browsers.php"
+        >Прочитайте про це в підтримці браузера HTML5 .</a
+      >
+
+      <h2>Нові семантичні елементи в HTML5</h2>
+      <p>
+        HTML5 пропонує нові семантичні елементи для визначення різних частин
+        веб-сторінки:
+      </p>
+      <section>
+        <article>
+          <li><a href=" #&lt; Aside &gt;">&lt; Aside &gt;</a></li>
+
+          <li><a href="#&lt;Footer&gt;">&lt;Footer&gt;</a></li>
+          <li>
+            <a href="#&lt;FigureFigcaption&gt">&lt;FigureFigcaption&gt;</a>
+          </li>
+          <li><a href="#&lt;Header&gt;">&lt;Header&gt;</a></li>
+          <li><a href="#&lt;Arcticle&gt;">&lt;Arcticle&gt;</a></li>
+          <li><a href="#&lt;Section&gt;">&lt;Section&gt;</a></li>
+        </article>
+        <h2 id="&lt;Section&gt;">HTML5 &lt;section&gt; елемент</h2>
+      </section>
+      <section>
+        <p>
+          Елемент section визначає розділ в документі.<br />
+          Згідно з документацією в3к'с HTML5: "розділ представляє собою
+          тематичну угруповання контенту, зазвичай з заголовком".<br />
+          Домашня сторінка зазвичай може бути розділена на розділи для
+          ознайомлення, змісту і контактної інформації.
+        </p>
+
+        <img src="./images/section.jpg" />
+      </section>
+      <section>
+        <h2 id="&lt;Arcticle&gt;">HTML5 &lt;arcticle&gt; елемент</h2>
+        <p>
+          Елемент &lt; arcticle &gt; визначає незалежний, автономний вміст.<br />
+          Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+          читати його незалежно від іншої частини веб-сайту.<br />
+          Приклади того, де можна використовувати елемент &lt;arcticle&gt;:
+          <li>Повідомлення на форумі</li>
+          <li>блозі</li>
+          <li>Газетна стаття</li>
+        </p>
+        <img src="./images/arct.jpg" />
+
+        <h2>Вкладення &lt; arcticle &gt; в &lt; section &gt; або навпаки?</h2>
+        <p>
+          Елемент &lt; arcticle &gt; визначає незалежне, автономне вміст.
+          Елемент &lt; section &gt; визначає розділ в документі.<br />
+          Чи можемо ми використовувати визначення, щоб вирішити, як вкладати ці
+          елементи?<br />
+          Ні, ми не можемо! Таким чином, в Інтернеті ви знайдете HTML-сторінки з
+          &lt; section &gt; елементами,<br />
+          що містять елементи &lt; arcticle &gt;, і &lt; arcticle &gt; елементи,
+          що містять &lt; section &gt; елементи. Ви також знайдете сторінки з
+          елементами section,<br />
+          що містять елементи &lt; section &gt;, і &lt; arcticle &gt; елементи,
+          що містять &lt; arcticle &gt; елементи.
+        </p>
+      </section>
+      <section>
+        <h2 id="&lt;Header&gt;">HTML5 &lt;header&gt; елемент</h2>
+        <p>
+          Елемент "&lt;Header&gt; задає заголовок для документа або розділу.<br />
+          Елемент "&lt;Header&gt; повинен використовуватися в якості контейнера
+          для вступного змісту.<br />
+          В одному документі може бути кілька елементів "&lt;Header&gt;. У
+          наступному прикладі визначається заголовок для статті:
+        </p>
+        <img src="./images/head.jpg" />
+        <h2 id="&lt;Footer&gt;">HTML5 &lt;footer&gt; елемент</h2>
+      </section>
+      <section>
+        <p>
+          Елемент &lt;Footer&gt; вказує нижній колонтитул для документа або
+          розділу.<br />
+          Нижній колонтитул зазвичай містить автора документа, інформацію про
+          авторське право,<br />
+          посилання на умови використання,<br />
+          контактні дані і т.д. В одному документі може бути кілька елементів
+          &lt;Footer&gt;
+        </p>
+        <img src="./images/foot.jpg" />
+        <h2 id="&lt; Aside &gt;">HTML5 &lt;aside&gt; елемент</h2>
+        <p>Зміст aside має бути пов'язане з навколишнім вмістом.</p>
+        <img src="./images/asi.jpg" />
+        <h2 id="&lt;FigureFigcaption&gt;">
+          HTML5 & &lt;figure figcaption&gt; елементи
+        </h2>
+        <p>
+          Метою малюнка є додавання візуального пояснення до зображення.<br />У
+          HTML5 зображення і заголовок можуть бути згруповані разом в елементі
+          &lt;figure&gt;:
+        </p>
+        <img src="./images/fig.jpg" />
+        <p>
+          Елемент &lt; img &gt;визначає зображення, елемент &lt; figcaption
+          &gt;визначає заголовок.
+        </p>
+      </section>
+    </div>
+    <footer style="background-color: blanchedalmond; height: 8em" ;>
+      <h4><a href="https://www.google.com/intl/ru/gmail/about/">пошта</a></h4>
+      <figure>
+        <img src="images/EruaALXXIAYl5Rj.jpg" width="80" />
+      </figure>
+    </footer>
+  </body>
+</html>
